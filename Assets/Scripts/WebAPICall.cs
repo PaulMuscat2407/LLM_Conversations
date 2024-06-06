@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 public class WebAPICall : MonoBehaviour
 {
-    private string API_TOKEN = "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";
+    private string API_TOKEN = ""; // Add HuggingFace API Token
     private string User_Input, model, character, location,generated_text;
     private string[] generatedWords;
     private int currentWordIndex = 0;
